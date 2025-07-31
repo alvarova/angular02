@@ -1,8 +1,31 @@
+.portfolio {
+  padding: 20px;
+}
 
+.about,
+.work,
+.contact {
+  margin-bottom: 40px;
+}
 
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
 
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
+.portfolio-item {
+  background: #eeeeee;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.qr {
+  width: 120px;
+  height: 120px;
+  margin-top: 20px;
+}

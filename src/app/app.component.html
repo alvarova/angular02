@@ -1,11 +1,23 @@
 <app-top-bar></app-top-bar>
+<div class="portfolio">
+  <section id="about" class="about">
+    <h2>Sobre mí</h2>
+    <p>Soy un diseñador apasionado por crear experiencias visuales atractivas y funcionales.</p>
+  </section>
 
-<div class="container">
-  <router-outlet></router-outlet>
+  <section id="work" class="work">
+    <h2>Proyectos Destacados</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">Proyecto 1</div>
+      <div class="portfolio-item">Proyecto 2</div>
+      <div class="portfolio-item">Proyecto 3</div>
+      <div class="portfolio-item">Proyecto 4</div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contacto</h2>
+    <p>Correo: contacto@ejemplo.com</p>
+    <img [src]="qrCodeUrl" alt="QR para compartir" class="qr" />
+  </section>
 </div>
-
-<!-- 
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
--->

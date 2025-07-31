@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  qrCodeUrl =
+    'https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://example.com';
 }
 
 
